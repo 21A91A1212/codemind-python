@@ -1,4 +1,4 @@
-a=input().split()
-a=sorted(a)
-a.sort(key=len)
-print(*a)
+s=input().split()
+s=sorted(s)
+s.sort(key=len)
+print(*s)
